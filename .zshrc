@@ -116,8 +116,5 @@ alias gcmaster-update="git checkout master && git fetch -p && git pull"
 alias z_ios_frameworks="bundle exec fastlane ios update_frameworks"
 alias z_ios_translations="bundle exec fastlane download_translations"
 
-alias cdios="cd ~/zettle/iZettle-iOS/"
-alias cdmessage="cd ~/zettle/message-registry/"
-
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
