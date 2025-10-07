@@ -37,7 +37,7 @@ xcode-select -r
 
 2. Install Homebrew:
 ```bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
 ### Step 2: Install iTerm2
