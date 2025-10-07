@@ -66,7 +66,7 @@ brew --version
 iTerm2 is a feature-rich terminal replacement for macOS.
 
 ```bash
-brew cask install iterm2
+brew install --cask iterm2
 ```
 
 ### Step 3: Install Zsh
