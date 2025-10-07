@@ -40,6 +40,27 @@ xcode-select -r
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
 
+3. Add Homebrew to your PATH:
+
+After installation, the installer will display commands to add Homebrew to your PATH. Run them exactly as shown.
+
+**For Apple Silicon Macs (M1/M2/M3):**
+```bash
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/opt/homebrew/bin/brew shellenv)"
+```
+
+**For Intel Macs:**
+```bash
+echo 'eval "$(/usr/local/bin/brew shellenv)"' >> ~/.zprofile
+eval "$(/usr/local/bin/brew shellenv)"
+```
+
+4. Verify Homebrew installation:
+```bash
+brew --version
+```
+
 ### Step 2: Install iTerm2
 
 iTerm2 is a feature-rich terminal replacement for macOS.
