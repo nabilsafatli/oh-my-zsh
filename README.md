@@ -94,7 +94,7 @@ zsh --version
 
 **Upgrade Oh My Zsh:**
 ```bash
-upgrade_oh_my_zsh
+omz update
 ```
 
 After installation, restart iTerm2 to apply changes.
@@ -239,7 +239,7 @@ source ~/.zshrc
 | `nano ~/.zshrc` | Edit Zsh configuration in nano |
 | `open ~/.zshrc` | Edit Zsh configuration in default editor |
 | `source ~/.zshrc` | Apply configuration changes |
-| `upgrade_oh_my_zsh` | Update Oh My Zsh to latest version |
+| `omz update` | Update Oh My Zsh to latest version |
 | `open ~/.oh-my-zsh` | View Oh My Zsh directory |
 
 ---
